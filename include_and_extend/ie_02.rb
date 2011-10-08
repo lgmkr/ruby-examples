@@ -1,6 +1,7 @@
 module Foo
   def self.included(base)
     base.extend(ClassMethods)
+    p base #еси чо
   end
   
   module ClassMethods
